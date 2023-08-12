@@ -35,6 +35,54 @@ a
 {
 color:white;
 }
+#first-content
+{
+ 
+}
+td
+{
+    padding-bottom: 80px; 
+}
+#home-content,#about-content,
+#profession-content,#interest-content,
+#contact-content
+{
+margin: 35px;
+
+}
+
+#selected:visited
+{
+    color: white;
+}
+#selected, a:hover,#selected:hover
+{
+    color: rgb(149, 147, 147);
+}
+footer
+{
+  margin-top: auto; 
+  background-color: rgb(148, 147, 147); 
+}
+body
+{
+    min-height: 100vh;
+    display: flex ; 
+    flex-direction:column ;
+    background-color:gold;
+}
+@media screen and (max-width:768px)
+ {
+    li
+    {
+       display:block;
+       background-color: black; 
+    }
+}
+
+
+
+
 
 
 
